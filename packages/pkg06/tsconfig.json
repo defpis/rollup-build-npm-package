@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "strict": true,
+
+    "jsx": "react",
+
+    "target": "ES2015",
+    "module": "ES2015",
+
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["./src/*"]
+    },
+
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "./dist/types/",
+    "outDir": "./dist/"
+  },
+
+  "exclude": ["./node_modules/", "./dist/"]
+}

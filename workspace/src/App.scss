@@ -1,0 +1,10 @@
+@import "@arco-design/web-react/dist/css/arco.css";
+
+.split-view {
+  display: flex;
+  flex-direction: row;
+
+  > div {
+    width: 50%;
+  }
+}
