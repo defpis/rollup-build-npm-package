@@ -5,9 +5,15 @@
   ],
   "main": "dist/cjs/index.cjs",
   "module": "dist/esm/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.cjs",
+      "import": "./dist/esm/index.mjs"
+    }
+  },
   "types": "dist/types/index.d.ts",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "build": "rm -rf dist && rollup -c"
   },
